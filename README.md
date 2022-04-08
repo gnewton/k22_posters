@@ -10,7 +10,9 @@ Raw postscript posters featuring the Klingon K-22 "Bird of Prey"
 [PNG Image](https://github.com/gnewton/k22_posters/raw/main/png/klingon_spaceways.png) 
                                                                                         
 
-[Inspired by British Airways Paris-Scandinavia poster](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/384x620-British-Airways-Paris-Scandinavia-poster.jpg)
+![British-Airways-Paris-Scandinavia-poster.jpg](British-Airways-Paris-Scandinavia-poster.jpg)
+(C) British Airways
+[Original](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/384x620-British-Airways-Paris-Scandinavia-poster.jpg)
 
 
 ## Art Deco K-22
@@ -36,3 +38,4 @@ make, [ghostscript](https://www.ghostscript.com/), [ImageMajick](https://imagema
 `revenge.ps` uses: 
 [pIqaDRoman font](https://hol.kag.org/page/piqadsupport.html). Thanks to  [David Peterson](https://twitter.com/Dedalvs) for this font.
 ## Building
+`make clean; make`
