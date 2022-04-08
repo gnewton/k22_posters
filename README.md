@@ -1,5 +1,9 @@
 # k22_posters
-Raw postscript posters featuring the Klingon K-22 "Bird of Prey"
+Raw Postscript posters featuring the Klingon K-22 "Bird of Prey"
+
+All posters written in raw Postscript without any other tools.
+
+K-22 outline used in all posters converted to Postscript by eye.
 
 
 ## Klingon Spaceways
