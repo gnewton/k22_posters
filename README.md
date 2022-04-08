@@ -13,8 +13,7 @@ Inspired by:
 
 ![British-Airways-Paris-Scandinavia-poster.jpg](British-Airways-Paris-Scandinavia-poster.jpg)
 
-(C) British Airways
-
+Copyright (C) British Airways
 [Original](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/384x620-British-Airways-Paris-Scandinavia-poster.jpg)
 
 
