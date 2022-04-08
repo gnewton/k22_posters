@@ -27,3 +27,9 @@ Raw postscript posters featuring the Klingon K-22 "Bird of Prey"
 |
 [PNG image](https://github.com/gnewton/k22_posters/raw/main/png/revenge.png)
 
+
+# Dependencies
+## Postscript Fonts
+### Klingon
+`revenge.ps` uses: 
+[pIqaDRoman font](https://hol.kag.org/page/piqadsupport.html). Thanks to  [David Peterson](https://twitter.com/Dedalvs) for this font.
