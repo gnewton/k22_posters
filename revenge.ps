@@ -1,0 +1,634 @@
+%PS
+%%Title: K-22 Revenge
+%%Creator: K. Glen Newton
+%%CreationDate: Sept 15 2021
+%%Pages: 1
+%%Copyright: (C) 2022 Glen Newton
+%%License: This code is licensed under the GPL3 ONLY IF THE "Copyright 2022 - CC BY-NC 4.0" is visible in any poster created from this code; otherwise no license, copyright only;
+%%          The outputted poster is licensed CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/
+%%
+%% git repo: https://github.com/k22_posters
+
+
+
+<< /AllowTransparency true >> % enable transparency
+%%%%%%%<< /PageSize [792 1224] >> setpagedevice
+
+/gred 0 def
+/ggreen .48 def
+/gblue .48 def
+/green {gred ggreen gblue setrgbcolor} def
+/red {.87 0 .21 setrgbcolor} def
+/pink {0 .48 .48 setrgbcolor} def
+/darkRed {.25 .07 .05 setrgbcolor} def
+/gray {.93 .93 .82 setrgbcolor} def
+
+/OtherColor {0 1 0 setrgbcolor} def
+
+/bound 15 def
+/innerbound 30 def
+/pagewidth  currentpagedevice /PageSize get 0 get def
+/pageheight currentpagedevice /PageSize get 1 get def
+
+% Draw outer boundary
+gsave
+0 setlinewidth
+.4 setgray
+bound bound moveto
+pagewidth bound sub bound lineto
+pagewidth bound sub pageheight bound sub lineto
+pagewidth bound pageheight bound sub lineto
+closepath
+stroke
+grestore
+
+
+gsave
+% set clipping
+innerbound innerbound moveto
+pagewidth innerbound sub innerbound lineto
+pagewidth innerbound sub pageheight innerbound sub lineto
+pagewidth innerbound pageheight innerbound sub lineto
+closepath
+clip
+
+%%% scale and translate, for 8.5x11 instead of 14x17
+gsave
+8.5 11 div 14 17 div scale
+.8 .8 scale
+33 60 translate
+gsave
+50 300 translate
+
+/rect{
+    newpath
+    moveto
+%    45 rotate
+    /w exch def
+    /h exch def
+    0 w rlineto
+    h 0 rlineto
+    0 -1 w mul rlineto
+    -1 h mul 0 rlineto
+    gsave fill grestore stroke
+}def
+
+/tri{ % x y l h
+    newpath
+    moveto
+    /a exch def
+    /b exch def
+    0 a rlineto
+    b 0 rlineto
+    closepath
+    fill
+}def
+
+
+gsave
+45 rotate
+
+darkRed
+1000 100 450 750 rect
+
+red
+1000 100 450 650 rect
+
+
+pink
+1000 100 450 550 rect
+
+gray
+1200 100 350 450 rect
+
+green
+1000 100 250 350 rect
+
+red
+1500 100 150 250 rect
+
+darkRed
+1500 100 550 250 rect
+
+pink
+1500 100 150 150 rect
+
+darkRed
+300 100 50 150 rect
+
+red
+1000 100 550 50 rect
+
+green
+1000 100 550 -50 rect
+
+gray
+1000 100 550 -150 rect
+
+darkRed
+1000 100 550 -250 rect
+
+red
+1000 100 550 -350 rect
+
+
+gray
+100 100 550 250 tri
+
+ pink
+ -101 -101 650 350 tri
+
+
+90 rotate
+
+pink
+-1000 100 150 150 rect
+
+darkRed
+-1000 100 150 50 rect
+
+% OtherColor
+green
+-1000 100 150 -50 rect
+
+pink
+-1000 100 150 -150 rect
+
+% This has K22s bottom up, right to left
+gray
+-1000 100 150 -250 rect
+
+red
+-1000 200 150 -450 rect
+
+pink
+-1200 200 250 -550 rect
+
+red
+
+-500 100 750 -1150 rect
+
+darkRed
+-1000 100 50 -650 rect
+
+
+green
+-100 -100 151 -251 tri
+
+gsave
+-90 rotate
+
+green
+OtherColor
+
+green
+199 100 -50 -450 rect
+
+red
+300 200 1000 -500 rect
+
+
+green
+780 300 650 -640 rect
+grestore
+
+
+gsave
+%
+/pIqaDRoman-Medium findfont 45 scalefont setfont
+
+%.15 setgray
+0 setgray
+-180 rotate
+-230 440 moveto
+gsave
+1 1.3 scale
+(Heghlu`meh QaQ jajvam) show
+grestore
+
+gsave
+/Stardate_81316 findfont 50 scalefont setfont
+-80 380 moveto
+gray
+(Revenge is a dish best served cold) show
+grestore
+
+
+
+
+/k22{
+    newpath
+    218.55 200 moveto
+
+    18.5 0 rlineto
+    8 -22 rlineto
+    0 -1 rlineto
+    4 0 rlineto
+    0 1 rlineto
+    3.5 9 rlineto
+    3 .5 rlineto
+    36 8.2 rlineto
+    0 -2 rlineto
+    10 0 rlineto
+    0 2 rlineto
+
+    16 17 rlineto
+    0 3 rlineto
+    61 63 rlineto
+    0 5 rlineto
+    4 0 rlineto
+    .5 .5 rlineto
+    2 0 rlineto
+    0 4 rlineto
+    -1.4 .7 rlineto
+    .7 1 rlineto
+    0 15 rlineto
+    5 21 rlineto
+    %%%%%%
+
+    % curve start
+    %0 10 1 10 -2 18 rcurveto
+    .5 4 rlineto
+    -.5 4 rlineto
+    -.75 5 rlineto
+    -.5 3 rlineto
+    -1 3 rlineto
+    % curve end
+
+    -1.1 .7 rlineto
+    0 11 rlineto
+    .7 .7 rlineto
+    0 5 rlineto
+    -2.9 0 rlineto
+    0 19.2 rlineto
+    .7 .9 rlineto
+    0 3.5 rlineto
+    -1.3 0 rlineto
+    0 8.5 rlineto
+
+    1 .7 rlineto
+    0 9 rlineto
+
+    -2.65 3.45 rlineto
+    -1.7 0 rlineto
+    -2.65 -3.45 rlineto
+    0 -9 rlineto
+    1 -.7 rlineto
+    0 -22.3 rlineto
+    -1 0 rlineto
+    0 -4.6 rlineto
+    1 0 rlineto
+    0 -11 rlineto
+    -1.2 -.2 rlineto
+
+    -2.3 -12 rlineto
+    2 -4 rlineto
+    -1.9 -1 rlineto
+    -1.9 -2 rlineto
+    -1.2 -3 rlineto
+    0 -8.5 rlineto
+
+    -8 -2.3 rlineto
+    -4 0 rlineto
+    -75 -28 rlineto
+    -12 0 rlineto
+    0 1 rlineto
+    -1 0 rlineto
+    0 1 rlineto
+    -2 0 rlineto
+
+
+    %0 3 0 14 -23 25 rcurveto
+    % curve start
+    -1 4 rlineto
+    -1.5 3 rlineto
+    -2.5 4 rlineto
+    -3 4 rlineto
+    -4 4 rlineto
+    -5.5 4 rlineto
+    -6 3 rlineto
+    % curve end
+
+    %0 0 0 9 -11 23 rcurveto
+    % curve start
+    -3.5 9 rlineto
+    -2 4.3 rlineto
+    -2.3 4.3 rlineto
+    -2.3 3.3 rlineto
+    % curve end
+
+    -2 .5 rlineto
+    -1 1 rlineto
+    0 4 rlineto
+    1.2 .9 rlineto
+    0 4 rlineto
+    -3 2.5 rlineto
+    -1.7 14 rlineto
+    -2 0 rlineto
+    0 15 rlineto
+    -2 1 rlineto
+    0 2 rlineto
+
+    % curve start
+    3 4.5 rlineto
+    2 4.5 rlineto
+    1 4 rlineto
+    .7 4 rlineto
+    .5 4 rlineto
+    .1 4 rlineto
+    0 1 rlineto
+    % curve end
+
+    3 0 rlineto
+    1 1 rlineto
+    0 1.5 rlineto
+    3 0 rlineto
+    0 10 rlineto
+    2 0 rlineto
+
+    % curve start
+    -1.5 12 rlineto
+    -2.9 12 rlineto
+    -2.9 8 rlineto
+    -2.9 6 rlineto
+    -2.5 4.2 rlineto
+    -2.2 3.2 rlineto
+    -3.4 3.2 rlineto
+    -2.5 1.5 rlineto
+    -1.5 .5 rlineto
+    -1.03 0 rlineto
+
+    %%%%%%%%%%%%%%%%%%%
+    -1.03 -0 rlineto
+    -1.5 -.5 rlineto
+    -2.5 -1.5 rlineto
+    -3.4 -3.2 rlineto
+    -2.2 -3.2 rlineto
+    -2.5 -4.2 rlineto
+    -2.9 -6 rlineto
+    -2.9 -8 rlineto
+    -2.9 -12 rlineto
+    -1.5 -12 rlineto
+    % curve start
+
+    2 -0 rlineto
+    0 -10 rlineto
+    3 -0 rlineto
+    0 -1.5 rlineto
+    1 -1 rlineto
+    3 -0 rlineto
+
+    % curve end
+    0 -1 rlineto
+    .1 -4 rlineto
+    .5 -4 rlineto
+    .7 -4 rlineto
+    1 -4 rlineto
+    2 -4.5 rlineto
+    3 -4.5 rlineto
+    % curve start
+
+    0 -2 rlineto
+    -2 -1 rlineto
+    0 -15 rlineto
+    -2 -0 rlineto
+    -1.7 -14 rlineto
+    -3 -2.5 rlineto
+    0 -4 rlineto
+    1.2 -.9 rlineto
+    0 -4 rlineto
+    -1 -1 rlineto
+    -2 -.5 rlineto
+
+    % curve end
+    -2.3 -3.3 rlineto
+    -2.3 -4.3 rlineto
+    -2 -4.3 rlineto
+    -3.5 -9 rlineto
+    % curve start
+    %0 0 0 9 -11 23 rcurveto
+
+    % curve end
+    -6 -3 rlineto
+    -5.5 -4 rlineto
+    -4 -4 rlineto
+    -3 -4 rlineto
+    -2.5 -4 rlineto
+    -1.5 -3 rlineto
+    -1 -4 rlineto
+    % curve start
+    %0 3 0 14 -23 25 rcurveto
+
+
+    -2 -0 rlineto
+    0 -1 rlineto
+    -1 -0 rlineto
+    0 -1 rlineto
+    -12 -0 rlineto
+    -75 28 rlineto
+    -4 -0 rlineto
+    -8 2.3 rlineto
+
+    0 8.5 rlineto
+    -1.2 3 rlineto
+    -1.9 2 rlineto
+    -1.9 1 rlineto
+    2 4 rlineto
+    -2.3 12 rlineto
+
+    -1.2 .2 rlineto
+    0 11 rlineto
+    1 -0 rlineto
+    0 4.6 rlineto
+    -1 -0 rlineto
+    0 22.3 rlineto
+    1 .7 rlineto
+    0 9 rlineto
+    -2.65 3.45 rlineto
+    -1.7 -0 rlineto
+    -2.65 -3.45 rlineto
+
+    0 -9 rlineto
+    1 -.7 rlineto
+
+    0 -8.5 rlineto
+    -1.3 -0 rlineto
+    0 -3.5 rlineto
+    .7 -.9 rlineto
+    0 -19.2 rlineto
+    -2.9 -0 rlineto
+    0 -5 rlineto
+    .7 -.7 rlineto
+    0 -11 rlineto
+    -1.1 -.7 rlineto
+
+    % curve end
+    -1 -3 rlineto
+    -.5 -3 rlineto
+    -.75 -5 rlineto
+    -.5 -4 rlineto
+    .5 -4 rlineto
+    %0 10 1 10 -2 18 rcurveto
+    % curve start
+
+    %%%%%%
+    5 -21 rlineto
+    0 -15 rlineto
+    .7 -1 rlineto
+    -1.4 -.7 rlineto
+    0 -4 rlineto
+    2 -0 rlineto
+    .5 -.5 rlineto
+    4 -0 rlineto
+    0 -5 rlineto
+    61 -63 rlineto
+    0 -3 rlineto
+    16 -17 rlineto
+
+    0 -2 rlineto
+    10 -0 rlineto
+    0 2 rlineto
+    36 -8.2 rlineto
+    3 -.5 rlineto
+    3.5 -9 rlineto
+    0 -1 rlineto
+    4 -0 rlineto
+    0 1 rlineto
+    8 22 rlineto
+    18.5 -0 rlineto
+
+    % /Uncomment out to get centre line
+    % grestore
+    % stroke
+    % 0 12000 rlineto
+    % 0 -10000 rlineto
+    % 1 0 0 setrgbcolor
+    % 0 setlinewidth
+    % gsave
+    % Uncomment out to get centre line
+
+
+
+    
+    % curve end
+    closepath
+    fill
+}def
+
+
+
+
+%%%%%% Draw birds of prey %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%% Top
+gsave
+-433 310 translate
+.15 .15 scale
+-15 0 translate
+
+% top bop colors
+/topScale -0.07 def
+/bpred gred 1 gred sub topScale mul add def def
+/bpgreen ggreen 1 ggreen sub topScale mul add def
+/bpblue gblue 1 gblue sub topScale mul add def
+bpred bpgreen bpblue setrgbcolor
+0 1 8 { 0 400 translate gsave 180 rotate -430 -600 translate k22 grestore} for
+grestore
+
+% Right side K22s
+gsave
+-130 540 translate
+.15 .15 scale
+-15 0 translate
+0 0 0 setrgbcolor
+k22
+0 400 translate
+k22
+.3 .09 .90{/r exch def
+           r 0 r 10 div setrgbcolor
+           0 400 translate
+           k22
+          }for
+grestore
+
+%%%%%% Draw birds of prey
+% Bottom
+gsave
+90 rotate
+
+167 -300 translate
+.15 .15 scale
+
+.90 .90 .80 setrgbcolor
+0 -400 translate k22
+0 -400 translate k22
+.85 .85 .75 setrgbcolor
+0 400 translate k22
+.80 .80 .70 setrgbcolor
+0 400 translate k22
+.70 .70 .60 setrgbcolor
+0 400 translate k22
+.50 .50 .40 setrgbcolor
+0 400 translate k22
+.40 .40 .30 setrgbcolor
+0 400 translate k22
+.30 .30 .30 setrgbcolor
+0 400 translate k22
+.1 .1 .1 setrgbcolor
+0 400 translate k22
+
+.1 .1 .1 setrgbcolor
+0 400 translate k22
+
+.81 .1 .81 setrgbcolor
+grestore
+
+grestore
+
+
+grestore
+grestore
+
+%%% bottom left K22s
+gsave 
+gsave -135 rotate -350 100 translate .25 .25 scale  k22 grestore
+gsave -135 rotate -350 -20 translate .25 .25 scale  k22 grestore
+gsave -135 rotate -350 -140 translate .25 .25 scale  k22 grestore
+gsave -135 rotate -350 -260 translate .25 .25 scale  k22 grestore
+
+
+grestore
+
+
+%% Outside clip
+grestore
+
+grestore
+485 20.5 moveto
+/Courier findfont 6 scalefont setfont
+/CourierLatin
+  << /Courier findfont {} forall >>
+  begin
+    /Encoding ISOLatin1Encoding 256 array copy def currentdict
+  end
+definefont pop
+/CourierLatin 5 selectfont
+(\251 2021 Glen Newton  CC BY-NC 4.0) show
+
+30 22 moveto
+/KlingonLatin
+  << /pIqaDRoman-Medium findfont {} forall >>
+  begin
+    /Encoding ISOLatin1Encoding 256 array copy def currentdict
+  end
+  definefont pop
+/KlingonLatin 2 selectfont  
+(Copyright 2021 Glen Newton  CC BY-NC 4.0) show
+
+
+245 19 moveto
+/Helvetica-Oblique findfont 10 scalefont setfont
+(Revenge with K-22 Bird-of-Prey) show
+
+
+showpage

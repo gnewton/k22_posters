@@ -1,0 +1,462 @@
+%PS
+%%Title: Klingon Spaceways Poster
+%%Creator: K. Glen Newton
+%%CreationDate: Sept 15 2021
+%%Pages: 1
+%%Copyright: (C) 2022 Glen Newton
+%%License: This code is licensed under the GPL3 ONLY IF THE "Copyright 2022 - CC BY-NC 4.0" is visible in any poster created from this code; otherwise no license, copyright only;
+%%          The outputted poster is licensed CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/
+%%
+%% git repo: https://github.com/k22_posters
+%% Inspired by: https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/384x620-British-Airways-Paris-Scandinavia-poster.jpg
+
+<< /AllowTransparency true >> % enable transparency
+<< /PageSize [792 1224] >> setpagedevice
+
+/pw currentpagedevice /PageSize get 0 get def
+/ph currentpagedevice /PageSize get 1 get def
+
+/orange{.86 .37 .04 setrgbcolor}def
+/blue{.05 .04 .37 setrgbcolor}def
+/backgroundColor{.90 .89 .87 setrgbcolor}def
+/whiteLetterColor{1 1 .98 setrgbcolor}def
+
+
+/border 30 def
+
+/square{/h exch def /w exch def /y exch def /x exch def 
+        newpath
+        x y moveto
+        w 0 rlineto
+        0 h rlineto
+        w -1 mul 0 rlineto
+        closepath
+       }def
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% start drawing
+
+%%% White background
+gsave
+backgroundColor
+0 0 pw ph square
+fill
+grestore
+
+gsave
+/NewCenturySchlbk-Bold findfont 80 scalefont setfont
+blue
+ph .160 mul  ph .155 mul moveto
+.7 1.9 scale
+3.6 0 (SPACEWAYS  LTD) ashow
+grestore
+
+
+%%% Main orange square
+gsave
+border 300  pw   border 2 mul sub 825  square
+orange
+gsave fill grestore
+
+%% pale ray path
+/palePath{
+ newpath
+ border 80 add  ph 99 sub moveto
+ border 20 add  ph 99 sub lineto
+ 600 300 lineto
+ pw border sub 300 lineto
+ pw border sub 840 lineto
+ closepath
+}def
+
+gsave
+.93 .60 .40 setrgbcolor
+palePath
+fill
+grestore
+
+gsave
+palePath clip
+500 500 400 350 square
+0 1 0 setrgbcolor
+grestore
+
+/Times-Bold findfont 100 scalefont setfont
+blue
+border 8 sub ph 165 sub moveto
+gsave
+.7 1.9 scale
+15 0 (KLINGON) ashow
+grestore
+
+gsave
+/Hershey-Plain-Duplex-Bold findfont 170 scalefont setfont
+whiteLetterColor
+0 10 moveto
+.65 1 scale
+4 0 (KLINGONSPACEWAYS) ashow
+grestore
+
+
+gsave
+blue
+/Bookman-Light findfont 15 scalefont setfont
+ph .160 mul  ph .121 mul moveto
+5.8 0 (Q'ONOS · OGAT · RAATOORAS · TY'GOKOR) ashow
+grestore
+
+gsave
+/Bookman-Demi findfont 35 scalefont setfont
+ph .160 mul  ph .07 mul moveto
+.95 1.30 scale
+orange
+5 0 (BORETH  &  BETA LANKAL) ashow
+grestore
+
+gsave
+blue
+/Bookman-DemiItalic findfont 20 scalefont setfont
+ph .160 mul  ph .035 mul moveto
+4 0 (NEVER LEAVE WITHOUT YOUR BAT'LETH!) ashow
+grestore
+
+
+
+
+/k22{
+    newpath
+    218.55 200 moveto
+
+    18.5 0 rlineto
+    8 -22 rlineto
+    0 -1 rlineto
+    4 0 rlineto
+    0 1 rlineto
+    3.5 9 rlineto
+    3 .5 rlineto
+    36 8.2 rlineto
+    0 -2 rlineto
+    10 0 rlineto
+    0 2 rlineto
+
+    16 17 rlineto
+    0 3 rlineto
+    61 63 rlineto
+    0 5 rlineto
+    4 0 rlineto
+    .5 .5 rlineto
+    2 0 rlineto
+    0 4 rlineto
+    -1.4 .7 rlineto
+    .7 1 rlineto
+    0 15 rlineto
+    5 21 rlineto
+    %%%%%%
+
+    % curve start
+    %0 10 1 10 -2 18 rcurveto
+    .5 4 rlineto
+    -.5 4 rlineto
+    -.75 5 rlineto
+    -.5 3 rlineto
+    -1 3 rlineto
+    % curve end
+
+    -1.1 .7 rlineto
+    0 11 rlineto
+    .7 .7 rlineto
+    0 5 rlineto
+    -2.9 0 rlineto
+    0 19.2 rlineto
+    .7 .9 rlineto
+    0 3.5 rlineto
+    -1.3 0 rlineto
+    0 8.5 rlineto
+
+    1 .7 rlineto
+    0 9 rlineto
+
+    -2.65 3.45 rlineto
+    -1.7 0 rlineto
+    -2.65 -3.45 rlineto
+    0 -9 rlineto
+    1 -.7 rlineto
+    0 -22.3 rlineto
+    -1 0 rlineto
+    0 -4.6 rlineto
+    1 0 rlineto
+    0 -11 rlineto
+    -1.2 -.2 rlineto
+
+    -2.3 -12 rlineto
+    2 -4 rlineto
+    -1.9 -1 rlineto
+    -1.9 -2 rlineto
+    -1.2 -3 rlineto
+    0 -8.5 rlineto
+
+    -8 -2.3 rlineto
+    -4 0 rlineto
+    -75 -28 rlineto
+    -12 0 rlineto
+    0 1 rlineto
+    -1 0 rlineto
+    0 1 rlineto
+    -2 0 rlineto
+
+
+    %0 3 0 14 -23 25 rcurveto
+    % curve start
+    -1 4 rlineto
+    -1.5 3 rlineto
+    -2.5 4 rlineto
+    -3 4 rlineto
+    -4 4 rlineto
+    -5.5 4 rlineto
+    -6 3 rlineto
+    % curve end
+
+    %0 0 0 9 -11 23 rcurveto
+    % curve start
+    -3.5 9 rlineto
+    -2 4.3 rlineto
+    -2.3 4.3 rlineto
+    -2.3 3.3 rlineto
+    % curve end
+
+    -2 .5 rlineto
+    -1 1 rlineto
+    0 4 rlineto
+    1.2 .9 rlineto
+    0 4 rlineto
+    -3 2.5 rlineto
+    -1.7 14 rlineto
+    -2 0 rlineto
+    0 15 rlineto
+    -2 1 rlineto
+    0 2 rlineto
+
+    % curve start
+    3 4.5 rlineto
+    2 4.5 rlineto
+    1 4 rlineto
+    .7 4 rlineto
+    .5 4 rlineto
+    .1 4 rlineto
+    0 1 rlineto
+    % curve end
+
+    3 0 rlineto
+    1 1 rlineto
+    0 1.5 rlineto
+    3 0 rlineto
+    0 10 rlineto
+    2 0 rlineto
+
+    % curve start
+    -1.5 12 rlineto
+    -2.9 12 rlineto
+    -2.9 8 rlineto
+    -2.9 6 rlineto
+    -2.5 4.2 rlineto
+    -2.2 3.2 rlineto
+    -3.4 3.2 rlineto
+    -2.5 1.5 rlineto
+    -1.5 .5 rlineto
+    -1.03 0 rlineto
+
+    %%%%%%%%%%%%%%%%%%%
+    -1.03 -0 rlineto
+    -1.5 -.5 rlineto
+    -2.5 -1.5 rlineto
+    -3.4 -3.2 rlineto
+    -2.2 -3.2 rlineto
+    -2.5 -4.2 rlineto
+    -2.9 -6 rlineto
+    -2.9 -8 rlineto
+    -2.9 -12 rlineto
+    -1.5 -12 rlineto
+    % curve start
+
+    2 -0 rlineto
+    0 -10 rlineto
+    3 -0 rlineto
+    0 -1.5 rlineto
+    1 -1 rlineto
+    3 -0 rlineto
+
+    % curve end
+    0 -1 rlineto
+    .1 -4 rlineto
+    .5 -4 rlineto
+    .7 -4 rlineto
+    1 -4 rlineto
+    2 -4.5 rlineto
+    3 -4.5 rlineto
+    % curve start
+
+    0 -2 rlineto
+    -2 -1 rlineto
+    0 -15 rlineto
+    -2 -0 rlineto
+    -1.7 -14 rlineto
+    -3 -2.5 rlineto
+    0 -4 rlineto
+    1.2 -.9 rlineto
+    0 -4 rlineto
+    -1 -1 rlineto
+    -2 -.5 rlineto
+
+    % curve end
+    -2.3 -3.3 rlineto
+    -2.3 -4.3 rlineto
+    -2 -4.3 rlineto
+    -3.5 -9 rlineto
+    % curve start
+    %0 0 0 9 -11 23 rcurveto
+
+    % curve end
+    -6 -3 rlineto
+    -5.5 -4 rlineto
+    -4 -4 rlineto
+    -3 -4 rlineto
+    -2.5 -4 rlineto
+    -1.5 -3 rlineto
+    -1 -4 rlineto
+    % curve start
+
+    -2 -0 rlineto
+    0 -1 rlineto
+    -1 -0 rlineto
+    0 -1 rlineto
+    -12 -0 rlineto
+    -75 28 rlineto
+    -4 -0 rlineto
+    -8 2.3 rlineto
+
+    0 8.5 rlineto
+    -1.2 3 rlineto
+    -1.9 2 rlineto
+    -1.9 1 rlineto
+    2 4 rlineto
+    -2.3 12 rlineto
+
+    -1.2 .2 rlineto
+    0 11 rlineto
+    1 -0 rlineto
+    0 4.6 rlineto
+    -1 -0 rlineto
+    0 22.3 rlineto
+    1 .7 rlineto
+    0 9 rlineto
+    -2.65 3.45 rlineto
+    -1.7 -0 rlineto
+    -2.65 -3.45 rlineto
+
+    0 -9 rlineto
+    1 -.7 rlineto
+
+    0 -8.5 rlineto
+    -1.3 -0 rlineto
+    0 -3.5 rlineto
+    .7 -.9 rlineto
+    0 -19.2 rlineto
+    -2.9 -0 rlineto
+    0 -5 rlineto
+    .7 -.7 rlineto
+    0 -11 rlineto
+    -1.1 -.7 rlineto
+
+    % curve end
+    -1 -3 rlineto
+    -.5 -3 rlineto
+    -.75 -5 rlineto
+    -.5 -4 rlineto
+    .5 -4 rlineto
+    % curve start
+
+    %%%%%%
+    5 -21 rlineto
+    0 -15 rlineto
+    .7 -1 rlineto
+    -1.4 -.7 rlineto
+    0 -4 rlineto
+    2 -0 rlineto
+    .5 -.5 rlineto
+    4 -0 rlineto
+    0 -5 rlineto
+    61 -63 rlineto
+    0 -3 rlineto
+    16 -17 rlineto
+
+    0 -2 rlineto
+    10 -0 rlineto
+    0 2 rlineto
+    36 -8.2 rlineto
+    3 -.5 rlineto
+    3.5 -9 rlineto
+    0 -1 rlineto
+    4 -0 rlineto
+    0 1 rlineto
+    8 22 rlineto
+    18.5 -0 rlineto
+
+    % curve end
+    closepath
+    fill
+}def
+
+  0 300  pw border sub 2000  square clip
+ gsave
+ 600 -180 translate
+
+2.4 2.4 scale
+
+ 45 rotate
+ gsave
+ 1.5 1.5 translate
+ blue
+ k22
+ grestore
+ grestore
+
+gsave
+palePath clip
+600 -180 translate
+%530 -180 translate
+2.4 2.4 scale
+%40 rotate
+45 rotate
+
+gsave
+1.5 1.5 translate
+1 setgray
+k22
+grestore
+
+grestore
+gsave
+600 -180 translate
+2.4 2.4 scale
+45 rotate
+0.8 .setopacityalpha
+0.7 .setshapealpha
+blue
+k22
+grestore
+grestore
+
+
+1 setgray
+42 303 moveto
+90 rotate
+/CourierLatin
+  << /Courier findfont {} forall >>
+  begin
+    /Encoding ISOLatin1Encoding 256 array copy def currentdict
+  end
+definefont pop
+/CourierLatin 12 selectfont
+(\251 2022 Glen Newton - CC BY-NC 4.0) show
+
+showpage
