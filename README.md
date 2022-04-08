@@ -7,6 +7,12 @@ K-22 outline used in all posters converted to Postscript by eye.
 
 Builds PDF and PNG images.
 
+## License
+### Postscript code
+GPL3
+### PNG and PDF output
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
 
 ## Klingon Spaceways
 ![Klingon Spaceways](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_small.png)
