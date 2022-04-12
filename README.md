@@ -21,7 +21,7 @@ GPL3
 |
 [PNG Image](https://github.com/gnewton/k22_posters/raw/main/png/klingon_spaceways.png) 
                                                                                         
-Inspired by [https://www.britishairways.com/en-ca/information/about-ba/history-and-heritage/posters/posters-1920-1939](1920s/30s) era British Airways poster:
+Inspired by [1920s/30s](https://www.britishairways.com/en-ca/information/about-ba/history-and-heritage/posters/posters-1920-1939) era British Airways poster:
 
 ![British-Airways-Paris-Scandinavia-poster.jpg](British-Airways-Paris-Scandinavia-poster.jpg)
 
