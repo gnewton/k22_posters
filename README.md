@@ -30,7 +30,7 @@ Copyright (C) British Airways
 
 ### Issues
 1. Fonts are not exactly like the original. May look into this.
-1. Agreed: a K-22 with accommodation for twelve would not make a good basis for an interplanetary spacelines. :-)
+1. Agreed: a K-22 with accommodation for twelve would not make a good spacecraft for an interplanetary spacelines. :-)
 
 ## Art Deco K-22
 ![Art Deco](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/k22-artdeco_small.png)
