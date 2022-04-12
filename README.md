@@ -1,5 +1,5 @@
 # Klingon K-22 Postscript Posters
-Raw Postscript posters featuring the Klingon K-22 "Bird of Prey"
+Raw Postscript posters featuring the Klingon [K-22 "Bird of Prey"](https://www.ststcsolda.space/klingons/K-22/K-22.html)
 
 All posters written in raw Postscript without any other tools.
 
@@ -21,13 +21,16 @@ GPL3
 |
 [PNG Image](https://github.com/gnewton/k22_posters/raw/main/png/klingon_spaceways.png) 
                                                                                         
-Inspired by:
+Inspired by [https://www.britishairways.com/en-ca/information/about-ba/history-and-heritage/posters/posters-1920-1939](1920s/30s) era British Airways poster:
 
 ![British-Airways-Paris-Scandinavia-poster.jpg](British-Airways-Paris-Scandinavia-poster.jpg)
 
 Copyright (C) British Airways
-[Original](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/384x620-British-Airways-Paris-Scandinavia-poster.jpg)
+[Original British-Airways-Paris-Scandinavia](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/384x620-British-Airways-Paris-Scandinavia-poster.jpg)
 
+### Issues
+1. Fonts are not exactly like the original. May look into this.
+1. Agreed: a K-22 with accommodation for twelve would not make a good basis for an interplanetary spacelines. :-)
 
 ## Art Deco K-22
 ![Art Deco](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/k22-artdeco_small.png)
