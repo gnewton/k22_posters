@@ -37,7 +37,7 @@ Copyright (C) British Airways
 |
 [PNG Image](https://github.com/gnewton/k22_posters/raw/main/png/klingon_spaceways_bird.png) 
 
-![British-Airways-Paris-Scandinavia-poster.jpg](British-Airways-Paris-Scandinavia-poster.jpg)
+![British-Airways-Paris-Scandinavia-poster-2.jpg](British-Airways-Paris-Scandinavia-poster-2.jpg)
 
 Copyright (C) British Airways
 [Original British-Airways-Paris-Scandinavia](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/395x620-British-Airways-as-the-crow-flies-poster.jpg)
