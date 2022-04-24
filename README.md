@@ -48,9 +48,6 @@ These are inspired by two British Airways Paris-Scandinavia posters from the [19
 |
 [PNG Image](https://github.com/gnewton/k22_posters/raw/main/png/klingon_spaceways_bird.png) 
 
-Inspired by:
-
-![British-Airways-Paris-Scandinavia-poster_2.jpg](British-Airways-Paris-Scandinavia-poster_2.jpg)
 
 [Original British-Airways-Paris-Scandinavia](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/395x620-British-Airways-as-the-crow-flies-poster.jpg)
 ### Issues
