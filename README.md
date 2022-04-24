@@ -15,6 +15,8 @@ GPL3
 
 
 ## Klingon Spaceways
+These are inspired by two British Airways Paris-Scandinavia posters from the [1920s/30s](https://www.britishairways.com/en-ca/information/about-ba/history-and-heritage/posters/posters-1920-1939)
+### Klingon Spaceways 1
 ![Klingon Spaceways](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_small.png)
 
 [PDF](https://github.com/gnewton/k22_posters/raw/main/pdf/klingon_spaceways.pdf)
@@ -28,6 +30,15 @@ Inspired by [1920s/30s](https://www.britishairways.com/en-ca/information/about-b
 Copyright (C) British Airways
 [Original British-Airways-Paris-Scandinavia](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/384x620-British-Airways-Paris-Scandinavia-poster.jpg)
 
+### Klingon Spaceways 2
+![Klingon Spaceways 2: Bird / CHA'BLP](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_bird_small.png)
+
+[PDF](https://github.com/gnewton/k22_posters/raw/main/pdf/klingon_spaceways_bird.pdf)
+|
+[PNG Image](https://github.com/gnewton/k22_posters/raw/main/png/klingon_spaceways_bird.png) 
+
+
+[Original British-Airways-Paris-Scandinavia](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/395x620-British-Airways-as-the-crow-flies-poster.jpg)
 ### Issues
 1. Fonts are not exactly like the original. May look into this.
 1. Agreed: a K-22 with accommodation for twelve would not make a good spacecraft for an interplanetary spacelines. :-)
