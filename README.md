@@ -41,6 +41,7 @@ Copyright (C) British Airways
 ### Klingon Spaceways 2
 <div>
     <img align=top src="https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_bird_small.png"/>
+    Inspired by:
     <img align=top src="British-Airways-Paris-Scandinavia-poster_2.jpg"/>
 <div>
 
