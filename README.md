@@ -84,3 +84,8 @@ make, [ghostscript](https://www.ghostscript.com/), [ImageMajick](https://imagema
 [pIqaDRoman font](https://hol.kag.org/page/piqadsupport.html). Thanks to  [David Peterson](https://twitter.com/Dedalvs) for this font.
 ## Building
 `make clean; make`
+
+# Related repos
+- [Recreation of Michener 1997 diagram](https://github.com/gnewton/michener1997) - LaTeX
+- [Recreation of Crossan,Lane & White 1999 diagram](https://github.com/gnewton/clw1999) - LaTeX
+- [Manipulate PDF to make a cleaner Gatineau Park tail map](https://github.com/gnewton/gatineauPdfFun) - PDF, Postscript
