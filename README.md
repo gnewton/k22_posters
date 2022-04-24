@@ -1,3 +1,9 @@
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
 # Klingon K-22 Postscript Posters
 Raw Postscript posters featuring the Klingon [K-22 "Bird of Prey"](https://www.ststcsolda.space/klingons/K-22/K-22.html)
 
@@ -38,11 +44,7 @@ Copyright (C) British Airways
 
 
 ### Klingon Spaceways 2
-<style>
-td, th {
-   border: none!important;
-}
-</style>
+
 |  |  |  |
 |-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
 |![Klingon Spaceways 2: Bird / CHA'BLP](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_bird_small.png) | Inspired by: | ![British-Airways-Paris-Scandinavia-poster_2.jpg](British-Airways-Paris-Scandinavia-poster_2.jpg)|
