@@ -22,16 +22,19 @@ These are inspired by two British Airways Paris-Scandinavia posters from the [19
 
 
 ### Klingon Spaceways 1
+<div>
+    <img align=top src="https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_small.png"/>
+    Inspired by:
+    <img align=top src="British-Airways-Paris-Scandinavia-poster.jpg"/>
+    Copyright (C) British Airways
+<div>
+
 ![Klingon Spaceways](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_small.png)
 
 [PDF](https://github.com/gnewton/k22_posters/raw/main/pdf/klingon_spaceways.pdf)
 |
 [PNG Image](https://github.com/gnewton/k22_posters/raw/main/png/klingon_spaceways.png) 
                                                                                         
-Inspired by:
-
-![British-Airways-Paris-Scandinavia-poster.jpg](British-Airways-Paris-Scandinavia-poster.jpg)
-
 Copyright (C) British Airways
 [Original British-Airways-Paris-Scandinavia](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/384x620-British-Airways-Paris-Scandinavia-poster.jpg)
 
@@ -43,11 +46,10 @@ Copyright (C) British Airways
     <img align=top src="https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_bird_small.png"/>
     Inspired by:
     <img align=top src="British-Airways-Paris-Scandinavia-poster_2.jpg"/>
+    Copyright (C) British Airways
 <div>
 
-hello
 
-![Klingon Spaceways 2: Bird / CHA'BLP](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_bird_small.png)  Inspired by:  ![British-Airways-Paris-Scandinavia-poster_2.jpg](British-Airways-Paris-Scandinavia-poster_2.jpg)
 
 [PDF](https://github.com/gnewton/k22_posters/raw/main/pdf/klingon_spaceways_bird.pdf)
 |
