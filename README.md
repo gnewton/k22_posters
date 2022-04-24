@@ -8,14 +8,18 @@ K-22 outline used in all posters converted to Postscript by eye.
 Builds PDF and PNG images.
 
 ## License
+
 ### Postscript code
 GPL3
+
 ### PNG and PDF output
 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
 ## Klingon Spaceways
 These are inspired by two British Airways Paris-Scandinavia posters from the [1920s/30s](https://www.britishairways.com/en-ca/information/about-ba/history-and-heritage/posters/posters-1920-1939)
+
+
 ### Klingon Spaceways 1
 ![Klingon Spaceways](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_small.png)
 
@@ -30,6 +34,9 @@ Inspired by [1920s/30s](https://www.britishairways.com/en-ca/information/about-b
 Copyright (C) British Airways
 [Original British-Airways-Paris-Scandinavia](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/384x620-British-Airways-Paris-Scandinavia-poster.jpg)
 
+
+
+
 ### Klingon Spaceways 2
 ![Klingon Spaceways 2: Bird / CHA'BLP](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/klingon_spaceways_bird_small.png)
 
@@ -37,13 +44,14 @@ Copyright (C) British Airways
 |
 [PNG Image](https://github.com/gnewton/k22_posters/raw/main/png/klingon_spaceways_bird.png) 
 
-![British-Airways-Paris-Scandinavia-poster-2.jpg](British-Airways-Paris-Scandinavia-poster-2.jpg)
+![British-Airways-Paris-Scandinavia-poster_2.jpg](British-Airways-Paris-Scandinavia-poster_2.jpg)
 
 Copyright (C) British Airways
 [Original British-Airways-Paris-Scandinavia](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/395x620-British-Airways-as-the-crow-flies-poster.jpg)
 ### Issues
 1. Fonts are not exactly like the original. May look into this.
 1. Agreed: a K-22 with accommodation for twelve would not make a good spacecraft for an interplanetary spacelines. :-)
+
 
 ## Art Deco K-22
 ![Art Deco](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/k22-artdeco_small.png)
@@ -52,12 +60,14 @@ Copyright (C) British Airways
 |
 [PNG image](https://github.com/gnewton/k22_posters/raw/main/png/k22-artdeco.png)
 
+
 ## Abstract "Revenge is a dish best..." with multiple K-22s, some coming in/out of cloak
 ![Revenge is a meal...](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/revenge_small.png)
 
 [PDF](https://github.com/gnewton/k22_posters/raw/main/pdf/revenge.pdf)
 |
 [PNG image](https://github.com/gnewton/k22_posters/raw/main/png/revenge.png)
+
 
 
 # Dependencies
