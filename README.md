@@ -1,8 +1,3 @@
-<style>
-td, th {
-   border: none!important;
-}
-</style>
 
 # Klingon K-22 Postscript Posters
 Raw Postscript posters featuring the Klingon [K-22 "Bird of Prey"](https://www.ststcsolda.space/klingons/K-22/K-22.html)
