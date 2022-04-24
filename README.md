@@ -1,5 +1,5 @@
 
-An experimental Covid side project, so improve my Postscript skills.
+An experimental Covid side project, to improve my Postscript skills.
 
 # Klingon K-22 Postscript Posters
 Raw Postscript posters featuring the Klingon [K-22 "Bird of Prey"](https://www.ststcsolda.space/klingons/K-22/K-22.html)
