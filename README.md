@@ -1,10 +1,12 @@
 
+An experimental Covid side project, so improve my Postscript skills.
+
 # Klingon K-22 Postscript Posters
 Raw Postscript posters featuring the Klingon [K-22 "Bird of Prey"](https://www.ststcsolda.space/klingons/K-22/K-22.html)
 
 All posters written in raw Postscript without any other tools.
 
-K-22 outline used in all posters converted to Postscript by eye.
+K-22 outline used in all posters converted to Postscript by eye/hand.
 
 Builds PDF and PNG images.
 
@@ -50,6 +52,7 @@ These are inspired by two British Airways Paris-Scandinavia posters from the [19
 
 
 [Original British-Airways-Paris-Scandinavia](https://www.britishairways.com/assets/images/information/about-ba/history-and-heritage/posters/1920-1939/lightbox/395x620-British-Airways-as-the-crow-flies-poster.jpg)
+
 ### Issues
 1. Fonts are not exactly like the original. May look into this.
 1. Agreed: a K-22 with accommodation for twelve would not make a good spacecraft for an interplanetary spacelines. :-)
