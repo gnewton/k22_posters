@@ -12,10 +12,29 @@
 
 << /AllowTransparency true >> % enable transparency
 << /PageSize [792 1224] >> setpagedevice
-%true setstrokeadjust
+true setstrokeadjust
+
+<<
+  /BeginPage {
+          0.95 0.95 scale
+    22 32 translate
+  }
+>> setpagedevice
 
 /pw currentpagedevice /PageSize get 0 get def
 /ph currentpagedevice /PageSize get 1 get def
+
+newpath
+0 0 moveto
+pw 0 rlineto
+0 ph rlineto
+pw -1 mul 0 rlineto
+closepath
+1 0 0 setrgbcolor
+%fill
+%showpage
+clip
+
 
 
 %% colours
@@ -755,25 +774,28 @@ middleBlock
 bottomBlock
 
 %guideLines
-    gsave
-    /Times-Bold findfont 50 scalefont setfont
-    .68 .20 .15 setrgbcolor
-    30 ph 55 sub moveto
-    .7 1 scale
-    2 0 (AS THE CHA'BLP FLIES - ONLY FASTER!) ashow
-    grestore
+gsave
+/Times-Bold findfont 50 scalefont setfont
+.68 .20 .15 setrgbcolor
+30 ph 55 sub moveto
+.7 1 scale
+2 0 (AS THE CHA'BLP FLIES - ONLY FASTER!) ashow
+grestore
 
-    1 setgray
-    pw 4 sub 303 moveto
+gsave
+1 setgray
+pw 4 sub 303 moveto
 90 rotate
 /CourierLatin
-  << /Courier findfont {} forall >>
-  begin
-    /Encoding ISOLatin1Encoding 256 array copy def currentdict
-  end
+<< /Courier findfont {} forall >>
+begin
+/Encoding ISOLatin1Encoding 256 array copy def currentdict
+end
 definefont pop
 /CourierLatin 12 selectfont
 (\251 2022 Glen Newton - CC BY-NC 4.0) show
+grestore
+
 
 
 

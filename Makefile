@@ -2,7 +2,7 @@
 #   export GS_FONTPATH=/home/gnewton/.local/share/fonts/
 #
 
-gsArgs=-dEmbedAllFonts=true -dPDFSETTINGS=/printer -dNOSAFER -dPDFA -dBATCH -dNOPAUSE -dColorConversionStrategy=/LeaveColorUnchanged -dPDFACompatibilityPolicy=2 -sProcessColorModel=DeviceCMYK -sColorConversionStrategy=CMYK -sDEVICE=pdfwrite
+gsArgs=-dPDFFitPage -dEmbedAllFonts=true -dPDFSETTINGS=/printer -dNOSAFER -dPDFA -dBATCH -dNOPAUSE -dColorConversionStrategy=/LeaveColorUnchanged -dPDFACompatibilityPolicy=2 -sProcessColorModel=DeviceCMYK -sColorConversionStrategy=CMYK -sDEVICE=pdfwrite 
 
 gsTransp=-dALLOWPSTRANSPARENCY
 

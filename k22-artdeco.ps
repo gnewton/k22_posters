@@ -8,9 +8,18 @@
 %%          The outputted poster is licensed CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/
 %%
 %% git repo: https://github.com/k22_posters
+true setstrokeadjust
+
+<<
+  /BeginPage {
+          0.95 0.95 scale
+    22 32 translate
+  }
+>> setpagedevice
 
 /pagewidth  currentpagedevice /PageSize get 0 get def
 /pageheight currentpagedevice /PageSize get 1 get def
+
 /back {.85 165 256 div 32 256 div setrgbcolor} def
 
 /lineWidth 3 def
@@ -1128,8 +1137,8 @@ stroke
 
 gsave
 
-512 3  moveto
-
+578 39  moveto
+90 rotate
 /Courier findfont 6 scalefont setfont
 /CourierLatin
   << /Courier findfont {} forall >>
