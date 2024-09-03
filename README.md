@@ -81,7 +81,7 @@ make, [ghostscript](https://www.ghostscript.com/), [ImageMajick](https://imagema
 ## Postscript Fonts
 ### Klingon
 `revenge.ps` uses: 
-[pIqaDRoman font](https://hol.kag.org/page/piqadsupport.html). Thanks to  [David Peterson](https://twitter.com/Dedalvs) for this font.
+[pIqaDRoman font](https://hol.kag.org/page/piqadsupport.html). Thanks to  [David Peterson](https://artoflanguageinvention.com/) for this font.
 ## Building
 `make clean; make`
 
