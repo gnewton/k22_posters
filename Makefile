@@ -20,7 +20,7 @@ all: pdfs png pngsmall
 pdfs:
 	export GS_FONTPATH=$(CWD);gs $(gsArgs) -o pdf/revenge.pdf revenge.ps
 	gs $(gsArgs) $(gsTransp) -o pdf/klingon_spaceways_bird.pdf klingon_spaceways_bird.ps
-	gs $(gsArgs) $(gsTransp) -o pdf/k22-artdeco.pdf k22-artdeco.ps
+	export GS_FONTPATH=$(CWD);gs $(gsArgs) $(gsTransp) -o pdf/k22-artdeco.pdf k22-artdeco.ps
 	gs $(gsArgs) $(gsTransp) -o pdf/klingon_spaceways.pdf klingon_spaceways.ps
 
 png:pdfs

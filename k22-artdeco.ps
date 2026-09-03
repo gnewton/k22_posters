@@ -1108,7 +1108,7 @@ gsave                           %  save graphics state
 
 gsave
 
-200 -105 translate
+193 -105 translate
 k22
 grestore
 grestore
@@ -1126,18 +1126,21 @@ closepath
 stroke
 grestore
 
-/ParkLaneNF findfont 33 scalefont setfont
+% Font: ParkLaneNF
+% From: https://www.dafont.com/parklane.font
+%
+/ParkLaneNF findfont 50 scalefont setfont
 0 setgray
-160 10 moveto
+70 -15 moveto
 
-(K-22 "Bird of Prey")show
+(K-22 Bird of Prey)show
 
 162 6 moveto
 stroke
 
 gsave
 
-578 39  moveto
+559 40  moveto
 90 rotate
 /Courier findfont 6 scalefont setfont
 /CourierLatin
@@ -1147,7 +1150,7 @@ gsave
   end
 definefont pop
 /CourierLatin 5 selectfont
-(\251 2022 Glen Newton  CC BY-NC 4.0) show
+(\251 2022 K. Glen Newton  CC BY-NC 4.0) show
 grestore
 
 showpage

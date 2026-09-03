@@ -65,6 +65,8 @@ These are inspired by two British Airways Paris-Scandinavia posters from the [19
 |
 [PNG image](https://github.com/gnewton/k22_posters/raw/main/png/k22-artdeco.png)
 
+Font: [Park Lane NF][https://www.dafont.com/parklane.font]
+
 
 ## Abstract "Revenge is a dish best..." with multiple K-22s, some coming in/out of cloak
 ![Revenge is a meal...](https://raw.githubusercontent.com/gnewton/k22_posters/main/thumbs/revenge_small.png)
