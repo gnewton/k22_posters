@@ -38,3 +38,19 @@ pngsmall:pdfs
 
 clean:
 	-rm pdf/*.pdf png/*.png
+
+klingon_spaceways:
+	gs $(gsArgs) $(gsTransp) -o pdf/klingon_spaceways.pdf klingon_spaceways.ps
+
+revenge:
+	export GS_FONTPATH=$(CWD);gs $(gsArgs) -o pdf/revenge.pdf revenge.ps
+
+klingon_spaceways_bird:
+	gs $(gsArgs) $(gsTransp) -o pdf/klingon_spaceways_bird.pdf klingon_spaceways_bird.ps
+
+k22:
+	export GS_FONTPATH=$(CWD);gs $(gsArgs) $(gsTransp) -o pdf/k22-artdeco.pdf k22-artdeco.ps
+
+git:
+	git add *.ps Makefile pdf/*.pdf png/*.png thumbs/*.png
+

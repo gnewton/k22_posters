@@ -31,7 +31,7 @@ pw 0 rlineto
 pw -1 mul 0 rlineto
 closepath
 1 0 0 setrgbcolor
-%fill
+
 %showpage
 clip
 
@@ -180,7 +180,7 @@ clip
     whiteLetterColor
     0 10 moveto
     .65 1 scale
-    4 0 (KLINGONSPACEWAYS) ashow
+    4 0 (KLINGON SPACEWAYS) ashow
     grestore
 
     gsave
@@ -211,7 +211,7 @@ clip
     0 10 moveto
     .65 1 scale
     0.5 .setfillconstantalpha
-    4 0 (KLINGONSPACEWAYS) ashow
+    4 0 (KLINGON SPACEWAYS) ashow
     grestore
 
 
@@ -798,7 +798,16 @@ definefont pop
 (\251 2022 Glen Newton - CC BY-NC 4.0) show
 grestore
 
-
-
+gsave
+2 setlinewidth
+newpath
+0 0 moveto
+pw 0 rlineto
+0 ph rlineto
+pw -1 mul 0 rlineto
+closepath
+0 setgray
+stroke
+grestore
 
 showpage

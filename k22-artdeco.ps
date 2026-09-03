@@ -34,6 +34,7 @@ pagewidth pageheight lineto
 closepath
 .85 165 256 div 32 256 div setrgbcolor
 fill
+
 grestore
 
 
@@ -1129,11 +1130,12 @@ grestore
 % Font: ParkLaneNF
 % From: https://www.dafont.com/parklane.font
 %
-/ParkLaneNF findfont 50 scalefont setfont
+/ParkLaneNF findfont 37 scalefont setfont
 0 setgray
-70 -15 moveto
+127 6 moveto
 
-(K-22 Bird of Prey)show
+%(K-22 Bird of Prey)show
+(K-22 BIRD OF PREY)show
 
 162 6 moveto
 stroke
@@ -1152,6 +1154,19 @@ definefont pop
 /CourierLatin 5 selectfont
 (\251 2022 K. Glen Newton  CC BY-NC 4.0) show
 grestore
+
+gsave
+newpath
+0 0 moveto
+pagewidth 0 lineto
+pagewidth pageheight lineto
+0 pageheight lineto
+closepath
+1 setlinewidth
+0 setgray
+stroke
+grestore
+
 
 showpage
 

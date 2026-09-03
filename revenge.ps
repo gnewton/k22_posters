@@ -35,13 +35,17 @@
 
 % Draw outer boundary
 gsave
-0 setlinewidth
-.4 setgray
+1 setlinewidth
+0 setgray
 bound bound moveto
 pagewidth bound sub bound lineto
 pagewidth bound sub pageheight bound sub lineto
 pagewidth bound pageheight bound sub lineto
 closepath
+gsave
+1 setgray
+fill
+grestore
 stroke
 grestore
 

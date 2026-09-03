@@ -17,9 +17,8 @@ true setstrokeadjust
 
 <<
   /BeginPage {
-      %    0.95 0.95 scale
-          0.95 0.95 scale
-    22 32 translate
+      0.95 0.95 scale
+      22 32 translate
   }
 >> setpagedevice
 
@@ -29,7 +28,9 @@ true setstrokeadjust
 
 /orange{.86 .37 .04 setrgbcolor}def
 /blue{.05 .04 .37 setrgbcolor}def
-/backgroundColor{.90 .89 .87 setrgbcolor}def
+/backgroundColor{.90 .89 .87 setrgbcolor} def
+
+/borderColor{0 .89 .87 setrgbcolor} def
 /whiteLetterColor{1 1 .98 setrgbcolor}def
 
 
@@ -46,6 +47,8 @@ true setstrokeadjust
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%% start drawing
+
+gsave % Whole drawing 
 
 %%% White background
 gsave
@@ -105,28 +108,34 @@ gsave
 whiteLetterColor
 0 10 moveto
 .65 1 scale
-4 0 (KLINGONSPACEWAYS) ashow
+0.7 .setfillconstantalpha
+4 0 (KLINGON SPACEWAYS) ashow
 grestore
 
 
 gsave
 blue
-/Bookman-Light findfont 15 scalefont setfont
+
+
+/Bookman-Light findfont 24 scalefont setfont
 ph .160 mul  ph .121 mul moveto
-5.8 0 (Q'ONOS · OGAT · RAATOORAS · TY'GOKOR) ashow
+5.8 0 (Q'ONOS  -  OGAT  -  RAATOORAS) ashow
+
 grestore
 
+ 
+
 gsave
-/Bookman-Demi findfont 35 scalefont setfont
+/Bookman-Demi findfont 36.4 scalefont setfont
 ph .160 mul  ph .07 mul moveto
 .95 1.30 scale
 orange
-5 0 (BORETH  &  BETA LANKAL) ashow
+5 0 (BORETH & BETA LANKAL) ashow
 grestore
 
 gsave
 blue
-/Bookman-DemiItalic findfont 20 scalefont setfont
+/Bookman-DemiItalic findfont 19.2 scalefont setfont
 ph .160 mul  ph .035 mul moveto
 4 0 (NEVER LEAVE WITHOUT YOUR BAT'LETH!) ashow
 grestore
@@ -136,8 +145,8 @@ gsave
 whiteLetterColor
 0 10 moveto
 .65 1 scale
-0.5 .setfillconstantalpha
-4 0 (KLINGONSPACEWAYS) ashow
+0.3 .setfillconstantalpha
+4 0 (KLINGON SPACEWAYS) ashow
 grestore
 
 
@@ -476,5 +485,15 @@ grestore
 definefont pop
 /CourierLatin 12 selectfont
 (\251 2022 Glen Newton - CC BY-NC 4.0) show
+
+
+grestore % whole drawing
+
+gsave
+backgroundColor
+0 0 pw ph square
+0 setgray
+stroke
+grestore
 
 showpage
