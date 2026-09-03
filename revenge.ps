@@ -14,6 +14,7 @@
 << /AllowTransparency true >> % enable transparency
 %%%%%%%<< /PageSize [792 1224] >> setpagedevice
 
+
 /gred 0 def
 /ggreen .48 def
 /gblue .48 def
@@ -22,6 +23,8 @@
 /pink {0 .48 .48 setrgbcolor} def
 /darkRed {.25 .07 .05 setrgbcolor} def
 /gray {.93 .93 .82 setrgbcolor} def
+/klingonTextColor {0.25 setgray} def
+/englishTextColor {0.85 setgray} def
 
 /OtherColor {0 1 0 setrgbcolor} def
 
@@ -197,20 +200,29 @@ gsave
 %
 /pIqaDRoman-Medium findfont 45 scalefont setfont
 
-%.15 setgray
-0 setgray
+
+klingonTextColor
 -180 rotate
--230 440 moveto
+-180 440 moveto
 gsave
 1 1.3 scale
 (Heghlu`meh QaQ jajvam) show
 grestore
 
 gsave
-/Stardate_81316 findfont 50 scalefont setfont
+%/Stardate_81316 findfont 50 scalefont setfont
+%/Utopia-Regular findfont 50 scalefont setfont
+%/URWAntiquaT-RegularCondensed findfont 50 scalefont setfont
+%/Palatino-Roman  findfont 50 scalefont setfont
+%/NimbusRoman-Regular   findfont 50 scalefont setfont
+/Hershey-Script-Simplex    findfont 50 scalefont setfont
+%/Hershey-Gothic-German     findfont 50 scalefont setfont
+/Times-Italic     findfont 48 scalefont setfont
 -80 380 moveto
-gray
-(Revenge is a dish best served cold) show
+englishTextColor
+((Revenge is a dish best served cold)) show
+
+
 grestore
 
 
@@ -567,6 +579,7 @@ gsave
 .80 .80 .70 setrgbcolor
 0 400 translate k22
 .70 .70 .60 setrgbcolor
+%1 0 0 setrgbcolor
 0 400 translate k22
 .50 .50 .40 setrgbcolor
 0 400 translate k22
@@ -613,7 +626,8 @@ grestore
   end
 definefont pop
 /CourierLatin 5 selectfont
-(\251 2021 Glen Newton  CC BY-NC 4.0) show
+%(\251 2021 Glen Newton  CC BY-NC 4.0) show
+(\251 2021-2026 Glen Newton) show
 
 30 22 moveto
 /KlingonLatin
@@ -623,12 +637,14 @@ definefont pop
   end
   definefont pop
 /KlingonLatin 2 selectfont  
-(Copyright 2021 Glen Newton  CC BY-NC 4.0) show
+%(Copyright 2021 Glen Newton  CC BY-NC 4.0) show
+%(Copyright 2021-2026 K. Glen Newton) show
 
 
-245 19 moveto
+
+200 19 moveto
 /Helvetica-Oblique findfont 10 scalefont setfont
-(Revenge with K-22 Bird-of-Prey) show
+%("Revenge..."  in Klingon with K-22 Bird-of-Prey) show
 
 
 showpage
